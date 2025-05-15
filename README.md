@@ -2,11 +2,10 @@
 <img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
 </p>
 
-<h1>On-premises Active Directory Deployed in the Cloud (Azure)</h1>
+<h1> Active Directory Deployed in the Cloud (Azure)</h1>
 This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
 
 
-<h2>Video Demonstration</h2>
 
 
 <h2>Environments and Technologies Used</h2>
@@ -35,9 +34,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 </p>
 <p>
 <img src="https://i.imgur.com/LV1Keq6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-"The images above show the resource group that was created along with the virtual network (VNET). The VNet was established using Windows Server 2202 Datacenter. This VNet also host the Domain Controller."
+  <br />
+  "The images above show the resource group that was created along with the virtual network (VNET). The VNet was established using Windows Server 2202 Datacenter. This VNet also host the Domain Controller."
 </p>
 <br />
 
@@ -58,17 +56,6 @@ This tutorial outlines the implementation of on-premises Active Directory within
 "The above image shows the Domain Controller's private IP address being changed from dynamic to static. A static  IP address means it won't change over time. You can change this by navigating to the network settings on the Domain controller, then to the network interface's IP configuration. Select Ipconfig1, scroll to the private address setting, and change the configuration from  dynamic to static."
 </p>
 <br />
-
-<img src="https://i.imgur.com/TZlSO4M.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-
-</p>
-<p>
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
-</p>
-<br />
-
 
 <img src="https://i.imgur.com/Fj3o9id.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -125,7 +112,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/ndocI8u.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-"The image above display of one of the Users logging in."
+"The image above shows a Users logging in."
 </p>
 <br />
 <img src="https://i.imgur.com/LV1Keq6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
