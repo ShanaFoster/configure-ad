@@ -35,7 +35,7 @@ This tutorial outlines the implementation of Active Directory within Azure Virtu
 <p>
 <img src="https://i.imgur.com/LV1Keq6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br />
-  "The images above show the resource group that was created along with the virtual network (VNET). The VNet was established using Windows Server 2202 Datacenter. This VNet also host the Domain Controller."
+The images above show the resource group that was created along with the virtual network (VNET). The VNet was established using Windows Server 2202 Datacenter. This VNet also host the Domain Controller.
 </p>
 <br />
 
@@ -43,7 +43,7 @@ This tutorial outlines the implementation of Active Directory within Azure Virtu
 <img src="https://i.imgur.com/xn0A7Vj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-"This image above shows the virtual machine that was created with Windows 10." 
+This image above shows the virtual machine that was created with Windows 10.
 </p>
 <br />
 <p>
@@ -53,7 +53,7 @@ This tutorial outlines the implementation of Active Directory within Azure Virtu
 <img src="https://i.imgur.com/ml2oj5F.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-"The above image shows the Domain Controller's private IP address being changed from dynamic to static. A static  IP address means it won't change over time. You can change this by navigating to the network settings on the Domain controller, then to the network interface's IP configuration. Select Ipconfig1, scroll to the private address setting, and change the configuration from  dynamic to static."
+The above image shows the Domain Controller's private IP address being changed from dynamic to static. A static  IP address means it won't change over time. You can change this by navigating to the network settings on the Domain controller, then to the network interface's IP configuration. Select Ipconfig1, scroll to the private address setting, and change the configuration from  dynamic to static.
 </p>
 <br />
 
@@ -65,7 +65,7 @@ This tutorial outlines the implementation of Active Directory within Azure Virtu
 </p>
 <p>
 
-"The image above shows PowerShell opened on the Windows 10 virtual machine via Remote Desktop, using the public IP address privided Mircosoft Azure. To launch PowerShell, I navigated to the start menu, selected Windows PowerShell and chose Run as Administrator".
+The image above shows PowerShell opened on the Windows 10 virtual machine via Remote Desktop, using the public IP address privided Mircosoft Azure. To launch PowerShell, I navigated to the start menu, selected Windows PowerShell and chose Run as Administrator.
 
 </p>
 <br />
@@ -79,7 +79,7 @@ This tutorial outlines the implementation of Active Directory within Azure Virtu
 <img src="https://i.imgur.com/LZZLkfp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-"The images above display Server Manager on the Domain Controller, accessed via Remote Desktop using the public IP address provided by Mircosoft Azure. Server Manager is utilized to install the neccessary features to fully configure Domain Controller."
+The images above display Server Manager on the Domain Controller, accessed via Remote Desktop using the public IP address provided by Mircosoft Azure. Server Manager is utilized to install the neccessary features to fully configure Domain Controller.
 </p>
 <br />
 
@@ -87,7 +87,7 @@ This tutorial outlines the implementation of Active Directory within Azure Virtu
 
 </p>
 <p>
-"The above display me logging to the Domain Controller after it has been fully configured."
+The above display logging to the Domain Controller after it has been fully configured.
 
 </p>
 <br />
@@ -98,21 +98,21 @@ This tutorial outlines the implementation of Active Directory within Azure Virtu
 <img src="https://i.imgur.com/9UFXBVU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-"The images above display the creation of an employee name Jane. To create Jane's account, I navigated to the Start menu, opened Active Directory Users and Computer, expanded mydomain.com; right-clicked the appropriate Organizational Unit(OU), and select New and  User."
+The images above display the creation of an employee name Jane. To create Jane's account, I navigated to the Start menu, opened Active Directory Users and Computer, expanded mydomain.com; right-clicked the appropriate Organizational Unit(OU), and select New and  User.
 </p>
 <br />
 
 <img src="https://i.imgur.com/YjDmlWW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-"The image above displays a Powershell script being executed to list users accounts."
+The image above displays a Powershell script being executed to list users accounts.
 </p>
 <br />
 
 <img src="https://i.imgur.com/ndocI8u.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-"The image above shows a Users logging in."
+The image above shows a Users logging in.
 </p>
 <br />
 <img src="https://i.imgur.com/LV1Keq6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
