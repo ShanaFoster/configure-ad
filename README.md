@@ -22,10 +22,10 @@ This tutorial outlines the implementation of Active Directory within Azure Virtu
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Virtual Machine and Virtual Network being created
+- Domain controller change from dynamic to static
+- Navigate to PowerShell from the Windows 10 VM
+- Server Manager being display from the Domain Controller
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -35,7 +35,7 @@ This tutorial outlines the implementation of Active Directory within Azure Virtu
 <p>
 <img src="https://i.imgur.com/LV1Keq6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br />
-The images above show the resource group that was created along with the virtual network (VNET). The VNet was established using Windows Server 2202 Datacenter. This VNet also host the Domain Controller.
+The images above show the resource group that was created along with the virtual network (VNET). The VNet was established using Windows Server 2022 Datacenter. This VNet also host the Domain Controller.
 </p>
 <br />
 
