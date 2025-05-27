@@ -26,6 +26,9 @@ This tutorial outlines the implementation of Active Directory within Azure Virtu
 - Domain controller change from dynamic to static
 - Navigate to PowerShell from the Windows 10 VM
 - Server Manager being display from the Domain Controller
+- Create an employee in Active Directory
+- Execute the script of the users in Powershell
+- Log in remotely with a user from the Script
 
 <h2>Deployment and Configuration Steps</h2>
 
